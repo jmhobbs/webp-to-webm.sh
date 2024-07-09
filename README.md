@@ -23,6 +23,12 @@ Ensure you have the following installed:
 - [FFmpeg](https://ffmpeg.org/)
 - [webpmux](https://developers.google.com/speed/webp/download)
 
+If you are a Homebrew user, you can install the script as well as the dependencies with my [tap](https://github.com/jmhobbs/homebrew-tools)
+
+```
+brew install jmhobbs/tools/webp-to-webm.sh
+```
+
 # Usage
 
 ```
