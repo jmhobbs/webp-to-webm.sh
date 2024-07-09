@@ -1,3 +1,5 @@
+[![Test Status](https://github.com/jmhobbs/webp-to-webm.sh/actions/workflows/test.yaml/badge.svg?branch=main)](https://github.com/jmhobbs/webp-to-webm.sh/actions/workflows/test.yaml)
+
 # Convert Animated webp To webm
 
 FFmpeg does not directly support animated webp files for conversion.
