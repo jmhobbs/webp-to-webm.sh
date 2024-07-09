@@ -10,7 +10,10 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
         with:
-          submodules: 'true'
           fetch-depth: 0
+      - name: Setup Bats and bats libs
+        uses: bats-core/bats-action@2.0.0
       - name: Run Tests
-        run: ./test/bats/bin/bats test/*.bats
+        run: bats --verbose-run ./test
+        env:
+          BATS_LIB_PATH: "/usr/lib"
